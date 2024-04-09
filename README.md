@@ -24,3 +24,10 @@ def append():
     file.write(hname +  lastname)
 
     file.close()
+
+#read
+    
+append()
+
+look = open("char.txt", "r")
+print(look.read())
